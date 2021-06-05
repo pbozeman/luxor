@@ -14,6 +14,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/pbozeman/luxor",
     packages=find_packages(),
+    install_requires=[
+        'aiohttp>=3.7.4,<4',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
